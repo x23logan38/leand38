@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: "Raleway" , sans-serif;
+    
+}
+
+*{
+  text-decoration: none;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    color: black;
+}
+
+
+
+.header{
+  position: sticky;
+  padding: 1rem;
+  width: 100%;
+  height: 3rem;
+  background-color: greenyellow;
+}
+
+
+.header> .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+
+.menu{
+  position: static;
+  width: auto;
+  flex-direction: row;
+  
+}
+
+.menu> a{
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.logo> a{
+  color: black;
+  text-align: start;
+}
+.hero-image{
+  background-image: url(../images/avion-mundo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  
+}
+
+
+.hero-image-size{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.hero-image-titulo{
+  font-size: 5vh;
+  color: black;
+
+}
+
+
+
+.footer{
+  margin-bottom: 0;
+  padding: 1rem;
+  text-align: left;
+  color: cornsilk;
+  background-color:darkgreen;
+}

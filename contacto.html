@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeanProyecto</title>
+   <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html">PorElMundo</a>
+            </div>
+            <nav class="menu">
+                <a href="../index.html">Inicio</a>
+                <a href="./producto.html">producto</a>
+                <a href="./servicios.html">servicios</a>
+                <a href="./ubicacion.html">ubicacion</a>
+                <a href="./contacto.html">Perfil</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section>
+            <img src="../images/img2.jpg" alt="">
+        </section>
+        <section>
+            <h1>CONTACTO</h1>
+        </section>
+        <!-- formulario de contacto -->
+        <section>
+            <article>
+                <form action="#">
+                    <input type="text" placeholder="DECIME TU NOMBRE"><br>
+                    <label for="email">Decime tu email:
+                        <input type="email" placeholder="aaa@gmail.com" name="email"><br>
+                    </label>
+                    <label for="Observaciones"> Observaciones:<br>
+                        <textarea placeholder="Observaciones"></textarea>
+                    </label> <br>
+                    <input type="number" placeholder="DECIME TU EDAD"><br>
+                    <div><p>Elegí un lado:</p>
+                        <div>Izquierda
+                            <input type="radio" name="lado" value="izquierda">
+                        </div>
+                        <div>Derecha
+                            <input type="radio" name="lado" value="derecha">
+                        </div>
+                    </div>
+                    <p>Que letra te gusta mas?</p>
+                    <select name="letra" id="letra"> 
+                        <option value="x">X</option>
+                        <option value="y">Y</option>
+                        <option value="z">Z</option>
+                    </select>
+                    <div>Queres recibir info sobre nosotros?
+                    <input type="checkbox" name="acepta" value="1"></div>
+                    <input type="submit" value="PASAME LA DATA">
+                    <input type="reset" value="RESETEAR">
+                </form>
+            </article>
+        </section>
+
+
+</main>
+<footer class="footer">
+    <small>PorElMundo</small>
+</footer>
+</body>
+</html>
